@@ -1,0 +1,16 @@
+PODS:
+  - AutoCompleteAccessoryView (0.1.0)
+
+DEPENDENCIES:
+  - AutoCompleteAccessoryView (from `../`)
+
+EXTERNAL SOURCES:
+  AutoCompleteAccessoryView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AutoCompleteAccessoryView: dda5e8ecff829b0a3a5334dcaa040baaab465c52
+
+PODFILE CHECKSUM: 7e6104ff556a27336479fb49708f1af1ec9e9ce3
+
+COCOAPODS: 1.8.4

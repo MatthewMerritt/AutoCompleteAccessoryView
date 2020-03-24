@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'AutoCompleteAccessoryView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of AutoCompleteAccessoryView.'
+  s.summary          = 'AutoCompleteAccessoryView is an keyboard accessory view with autocomplete.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,8 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+
+  AutoCompleteAccessoryView is an keyboard accessory view with autocomplete. You can use any [String] to search for with feed back on selection and completion.
                        DESC
 
   s.homepage         = 'https://github.com/MatthewMerritt/AutoCompleteAccessoryView'
@@ -28,7 +29,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/MatthewMerritt/AutoCompleteAccessoryView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '13.0'
 
   s.source_files = 'AutoCompleteAccessoryView/Classes/**/*'
   
@@ -36,7 +37,9 @@ TODO: Add long description of the pod here.
   #   'AutoCompleteAccessoryView' => ['AutoCompleteAccessoryView/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.ios.frameworks = 'UIKit', 'Foundation'
+
+  s.swift_version = '5.0'
+
+  s.dependency 'EasyClosure'
 end

@@ -1,0 +1,22 @@
+{
+  "name": "AutoCompleteAccessoryView",
+  "version": "0.1.0",
+  "summary": "A short description of AutoCompleteAccessoryView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/MatthewMerritt/AutoCompleteAccessoryView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "MatthewMerritt": "matthew.merritt@yahoo.com"
+  },
+  "source": {
+    "git": "https://github.com/MatthewMerritt/AutoCompleteAccessoryView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AutoCompleteAccessoryView/Classes/**/*"
+}

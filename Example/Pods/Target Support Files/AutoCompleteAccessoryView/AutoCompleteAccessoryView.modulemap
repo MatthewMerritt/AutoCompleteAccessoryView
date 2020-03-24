@@ -1,0 +1,6 @@
+framework module AutoCompleteAccessoryView {
+  umbrella header "AutoCompleteAccessoryView-umbrella.h"
+
+  export *
+  module * { export * }
+}
