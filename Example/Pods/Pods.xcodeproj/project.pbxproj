@@ -18,7 +18,6 @@
 		512FA07DE7378325A950A5ACEC91C02C /* AutoCompleteAccessoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949D26DD6FFFF8A159893C47BD6C0671 /* AutoCompleteAccessoryCell.swift */; };
 		51C473E13A9B2EE1C113B7AA5D07E130 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E03FCDD01AD1E433C5DBC4EA21DEDE /* UIButton.swift */; };
 		55FF750A76D5482A3E7EE0DF9C2A1A1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AA2C1D31C3B317E36A7FB018BFA36E9 /* UIKit.framework */; };
-		586E644C88ED79AE0B75709B184F658D /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8272F207BC6E1656385C66AE45276CBB /* ReplaceMe.swift */; };
 		623E1497D2C7043CB196704713B8290C /* AutoCompleteAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE5F170356706CA9A58359C3C2DE3E1 /* AutoCompleteAccessoryView.swift */; };
 		628FEBE46216550ED55A5F98EB955D60 /* Pods-AutoCompleteAccessoryView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2901F8B96A2E8FD1BEAEB914670380E4 /* Pods-AutoCompleteAccessoryView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		69AA2AFFCB3A283CC145E14E8C13200C /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61868E9413130F57293E41C532F62BC2 /* Container.swift */; };
@@ -73,8 +72,8 @@
 
 /* Begin PBXFileReference section */
 		0E151250427D5037E6BE63BD474CA80F /* EasyClosure-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EasyClosure-dummy.m"; sourceTree = "<group>"; };
-		10D968A9262B5FE11239F6A1A7ACE2C6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		11503EDC1C09E8B860D90D5F87C3F32F /* AutoCompleteAccessoryView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AutoCompleteAccessoryView.framework; path = AutoCompleteAccessoryView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		10D968A9262B5FE11239F6A1A7ACE2C6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		11503EDC1C09E8B860D90D5F87C3F32F /* AutoCompleteAccessoryView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AutoCompleteAccessoryView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		147B45BB169B7BB1DE7C26FD7413F8E6 /* AutoCompleteAccessoryView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AutoCompleteAccessoryView.modulemap; sourceTree = "<group>"; };
 		16E962ECFFA4EDCCCCE35BC4F9D224C2 /* EasyClosure.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EasyClosure.xcconfig; sourceTree = "<group>"; };
 		1EA2561E66486301596CC9609F561971 /* UIGestureRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIGestureRecognizer.swift; path = Sources/iOS/UIGestureRecognizer.swift; sourceTree = "<group>"; };
@@ -91,7 +90,7 @@
 		4AA2C1D31C3B317E36A7FB018BFA36E9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		4C9F8864063E11B2F7252B92F87F9255 /* Pods-AutoCompleteAccessoryView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AutoCompleteAccessoryView_Example-Info.plist"; sourceTree = "<group>"; };
 		57D927A50A7A6679E9D64BCD54E106EB /* Pods-AutoCompleteAccessoryView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AutoCompleteAccessoryView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		5AF8B99A02BE39FB4A0CB7D48EEDADC8 /* AutoCompleteAccessoryView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AutoCompleteAccessoryView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5AF8B99A02BE39FB4A0CB7D48EEDADC8 /* AutoCompleteAccessoryView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AutoCompleteAccessoryView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		60AA9DC8A780C5D93203F9CF5E4025C7 /* Pods-AutoCompleteAccessoryView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AutoCompleteAccessoryView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		61868E9413130F57293E41C532F62BC2 /* Container.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Container.swift; path = Sources/Shared/Container.swift; sourceTree = "<group>"; };
 		7079B9A11E7693FD3CFF1A28940600DE /* UITextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITextView.swift; path = Sources/iOS/UITextView.swift; sourceTree = "<group>"; };
@@ -100,19 +99,18 @@
 		753C82A1E41F11CD8EA433A03BD7738A /* NSObject+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSObject+Extension.swift"; path = "Sources/Shared/NSObject+Extension.swift"; sourceTree = "<group>"; };
 		77376B938C453673374A7D35EFD2F4E2 /* AutoCompleteAccessoryView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AutoCompleteAccessoryView-prefix.pch"; sourceTree = "<group>"; };
 		7A63F3E205A0E9C502C43EFDF749414F /* EasyClosure.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EasyClosure.modulemap; sourceTree = "<group>"; };
-		8272F207BC6E1656385C66AE45276CBB /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = AutoCompleteAccessoryView/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		875C7E3FA11AC80FDD8B8BB329266415 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		875C7E3FA11AC80FDD8B8BB329266415 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8F59BAF01BD51986447E910444E14EE5 /* UITextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITextField.swift; path = Sources/iOS/UITextField.swift; sourceTree = "<group>"; };
 		8F7CA229BAFBFA12F5899893000DD987 /* Pods-AutoCompleteAccessoryView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AutoCompleteAccessoryView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		90F8B911BE021F2853ED4D669BFD89A5 /* AutoCompleteAccessoryView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AutoCompleteAccessoryView.xcconfig; sourceTree = "<group>"; };
 		92E4B850E6AF75872D9B354A0D08F4FF /* Pods-AutoCompleteAccessoryView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AutoCompleteAccessoryView_Tests-Info.plist"; sourceTree = "<group>"; };
 		949D26DD6FFFF8A159893C47BD6C0671 /* AutoCompleteAccessoryCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AutoCompleteAccessoryCell.swift; path = AutoCompleteAccessoryView/Classes/AutoCompleteAccessoryCell.swift; sourceTree = "<group>"; };
 		9C822E6114596765A1AE13DDA948ABD1 /* UIDatePicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIDatePicker.swift; path = Sources/iOS/UIDatePicker.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A048B1FA864A8ECE4995791DB1B0146C /* EasyClosure-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EasyClosure-prefix.pch"; sourceTree = "<group>"; };
 		A8A0897D7EECECBDEDA84EF78810F443 /* Pods-AutoCompleteAccessoryView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AutoCompleteAccessoryView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B0BFD9FDAC4D227E1C06AF4C0B3EED1A /* Pods_AutoCompleteAccessoryView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AutoCompleteAccessoryView_Tests.framework; path = "Pods-AutoCompleteAccessoryView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B36849615DFD3E48807E98CA8BDDE4BB /* EasyClosure.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EasyClosure.framework; path = EasyClosure.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0BFD9FDAC4D227E1C06AF4C0B3EED1A /* Pods_AutoCompleteAccessoryView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AutoCompleteAccessoryView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B36849615DFD3E48807E98CA8BDDE4BB /* EasyClosure.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EasyClosure.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7B1EBF536262D2E52F2F8B1D67A7F4C /* Pods-AutoCompleteAccessoryView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AutoCompleteAccessoryView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BB4E58144D8385637971E0015AA0F4E4 /* UISearchBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UISearchBar.swift; path = Sources/iOS/UISearchBar.swift; sourceTree = "<group>"; };
 		BEE5F170356706CA9A58359C3C2DE3E1 /* AutoCompleteAccessoryView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AutoCompleteAccessoryView.swift; path = AutoCompleteAccessoryView/Classes/AutoCompleteAccessoryView.swift; sourceTree = "<group>"; };
@@ -125,7 +123,7 @@
 		D66FB6AD16CD2EB65C3A51CA2DC6FB93 /* UIBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIBarButtonItem.swift; path = Sources/iOS/UIBarButtonItem.swift; sourceTree = "<group>"; };
 		DD3F4DE018F1C7EB94B83A0DFDC5D94A /* EasyClosureAware.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EasyClosureAware.swift; path = Sources/Shared/EasyClosureAware.swift; sourceTree = "<group>"; };
 		DF626C1DCF697E6A4417307CBB4176FC /* Pods-AutoCompleteAccessoryView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AutoCompleteAccessoryView_Tests.modulemap"; sourceTree = "<group>"; };
-		E3D18B8038FA2D484100347E71EA565C /* Pods_AutoCompleteAccessoryView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AutoCompleteAccessoryView_Example.framework; path = "Pods-AutoCompleteAccessoryView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3D18B8038FA2D484100347E71EA565C /* Pods_AutoCompleteAccessoryView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AutoCompleteAccessoryView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7C2847736D5A849028B0CA2C34275ED /* AutoCompleteAccessoryView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AutoCompleteAccessoryView-umbrella.h"; sourceTree = "<group>"; };
 		E90055E48BF6D2A0D830113D7DA194A6 /* EasyClosure-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EasyClosure-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -196,7 +194,6 @@
 				7079B9A11E7693FD3CFF1A28940600DE /* UITextView.swift */,
 				D772E9B455377DAC011F1497EAB806B3 /* Support Files */,
 			);
-			name = EasyClosure;
 			path = EasyClosure;
 			sourceTree = "<group>";
 		};
@@ -258,7 +255,6 @@
 			children = (
 				949D26DD6FFFF8A159893C47BD6C0671 /* AutoCompleteAccessoryCell.swift */,
 				BEE5F170356706CA9A58359C3C2DE3E1 /* AutoCompleteAccessoryView.swift */,
-				8272F207BC6E1656385C66AE45276CBB /* ReplaceMe.swift */,
 				E2E00C901719FA5542AB06A1C4DF70B6 /* Pod */,
 				C89ADBD7076545C0808FB0D28042B4F3 /* Support Files */,
 			);
@@ -561,7 +557,6 @@
 				512FA07DE7378325A950A5ACEC91C02C /* AutoCompleteAccessoryCell.swift in Sources */,
 				BD87A1E59ACED679FDE0A997E6C0E47A /* AutoCompleteAccessoryView-dummy.m in Sources */,
 				623E1497D2C7043CB196704713B8290C /* AutoCompleteAccessoryView.swift in Sources */,
-				586E644C88ED79AE0B75709B184F658D /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -648,8 +643,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

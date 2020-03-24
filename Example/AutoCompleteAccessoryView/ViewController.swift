@@ -67,7 +67,6 @@ class ViewController: UIViewController {
 
         }
 
-
         ac.message = "Add this CardioRep Name"
 
         let submitAction = UIAlertAction(title: "Add", style: .default) { [unowned ac] _ in
