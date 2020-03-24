@@ -1,7 +1,7 @@
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AutoCompleteAccessoryView"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AutoCompleteAccessoryView" "${PODS_CONFIGURATION_BUILD_DIR}/EasyClosure"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AutoCompleteAccessoryView/AutoCompleteAccessoryView.framework/Headers"
-OTHER_LDFLAGS = $(inherited) -framework "AutoCompleteAccessoryView"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AutoCompleteAccessoryView/AutoCompleteAccessoryView.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/EasyClosure/EasyClosure.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -framework "AutoCompleteAccessoryView" -framework "EasyClosure" -framework "Foundation" -framework "UIKit"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.

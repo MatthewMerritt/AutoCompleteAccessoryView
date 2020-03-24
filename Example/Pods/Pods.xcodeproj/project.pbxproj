@@ -7,19 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04ADC4EA71E956A3A4196248C797F500 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		1124F7426946CCB171FEF548AC71C523 /* Pods-AutoCompleteAccessoryView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2901F8B96A2E8FD1BEAEB914670380E4 /* Pods-AutoCompleteAccessoryView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		17B88B68686080BFAAAC9B66180379B5 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286DD808FA5B0BB9E60812DD06FD1753 /* ReplaceMe.swift */; };
+		04ADC4EA71E956A3A4196248C797F500 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D63E691AAA51D6FEE06F2B6883387BE7 /* Foundation.framework */; };
+		0AE40A0851B7AD98177FD5F1ABF69047 /* EasyClosure-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C87F93B9938D6DB38C5EC0F5CF1D1E82 /* EasyClosure-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11193A3DD9BF46E7B6BEFE340F590C9E /* EasyClosure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B072C9050C04218FCAAECC1B52214BF /* EasyClosure.framework */; };
+		1641A7CF127C7643B1DFB17D8746C9A2 /* UIDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C822E6114596765A1AE13DDA948ABD1 /* UIDatePicker.swift */; };
+		2BAD440D07646A32862C70D5458A01BD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AA2C1D31C3B317E36A7FB018BFA36E9 /* UIKit.framework */; };
 		3E7D6C6670870708B1DDD76572663919 /* Pods-AutoCompleteAccessoryView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D21B77DDFA316E457C73DF90A1DE522E /* Pods-AutoCompleteAccessoryView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		454992CF30E6A49F13CEA520CD60E4EB /* AutoCompleteAccessoryView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3A2E5D087BA4C3670F5071A555A0CC5 /* AutoCompleteAccessoryView-dummy.m */; };
-		5CE72B2BD66D766A0D3F9BA9BE8A4BAB /* AutoCompleteAccessoryView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2564FFA15A116364D03C8B4EECEFEF1B /* AutoCompleteAccessoryView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B075B5CB14A89BCA6F43CF401AB409E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		B409BB51334F825AB2BC5F0DE6667EBF /* Pods-AutoCompleteAccessoryView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C799B07CADADF125C789DEA5F89879 /* Pods-AutoCompleteAccessoryView_Example-dummy.m */; };
+		3FCB8725F8496BA75CD64246ED0FDDEE /* EasyClosureAware.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3F4DE018F1C7EB94B83A0DFDC5D94A /* EasyClosureAware.swift */; };
+		402358EF302427EC5EF0F87532311656 /* NSObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753C82A1E41F11CD8EA433A03BD7738A /* NSObject+Extension.swift */; };
+		512FA07DE7378325A950A5ACEC91C02C /* AutoCompleteAccessoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949D26DD6FFFF8A159893C47BD6C0671 /* AutoCompleteAccessoryCell.swift */; };
+		51C473E13A9B2EE1C113B7AA5D07E130 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E03FCDD01AD1E433C5DBC4EA21DEDE /* UIButton.swift */; };
+		55FF750A76D5482A3E7EE0DF9C2A1A1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AA2C1D31C3B317E36A7FB018BFA36E9 /* UIKit.framework */; };
+		586E644C88ED79AE0B75709B184F658D /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8272F207BC6E1656385C66AE45276CBB /* ReplaceMe.swift */; };
+		623E1497D2C7043CB196704713B8290C /* AutoCompleteAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE5F170356706CA9A58359C3C2DE3E1 /* AutoCompleteAccessoryView.swift */; };
+		628FEBE46216550ED55A5F98EB955D60 /* Pods-AutoCompleteAccessoryView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2901F8B96A2E8FD1BEAEB914670380E4 /* Pods-AutoCompleteAccessoryView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69AA2AFFCB3A283CC145E14E8C13200C /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61868E9413130F57293E41C532F62BC2 /* Container.swift */; };
+		71D65E2F61B5D5407BD23706C5C10162 /* UISlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D067091FD3E7D0D84492C3A92EDF50E5 /* UISlider.swift */; };
+		800C0410E3723B0B97ACEB13CD511643 /* UISwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372DE9819A7856342271E3812A2C0711 /* UISwitch.swift */; };
+		90E8C7F47FA07759323C302782151AE9 /* Pods-AutoCompleteAccessoryView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C799B07CADADF125C789DEA5F89879 /* Pods-AutoCompleteAccessoryView_Example-dummy.m */; };
+		941B7AECDBCBE23200229A4B7F316CAC /* UIGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA2561E66486301596CC9609F561971 /* UIGestureRecognizer.swift */; };
+		9B035262D827092E3EAC0E85B0BDDB1D /* EasyClosure-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E151250427D5037E6BE63BD474CA80F /* EasyClosure-dummy.m */; };
+		A909D0C9A9C73255323E28C680F58E69 /* AutoCompleteAccessoryView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E7C2847736D5A849028B0CA2C34275ED /* AutoCompleteAccessoryView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCA2A6E8D6D78F17D231DFFC033762C3 /* Typealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9E5E53E524CF14D98BE6A9AE5E7460 /* Typealias.swift */; };
+		BD87A1E59ACED679FDE0A997E6C0E47A /* AutoCompleteAccessoryView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36BFA749415EC1A4C97B0CBCA2237712 /* AutoCompleteAccessoryView-dummy.m */; };
+		CEE6D28565C0604BE23A1FB9E8EFDBB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D63E691AAA51D6FEE06F2B6883387BE7 /* Foundation.framework */; };
+		D0CD2E5DE0B7AD36EBB91E3CCE3B23CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D63E691AAA51D6FEE06F2B6883387BE7 /* Foundation.framework */; };
+		D21E61B192FDC9F48C374FB1D5FF4D7E /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F59BAF01BD51986447E910444E14EE5 /* UITextField.swift */; };
+		D693E48C76F49613E87DDC789694B89E /* UISearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4E58144D8385637971E0015AA0F4E4 /* UISearchBar.swift */; };
 		D90915B87BDF6F0CC0BF124F32CC379A /* Pods-AutoCompleteAccessoryView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4818052CB68F82B06546584CE8149E /* Pods-AutoCompleteAccessoryView_Tests-dummy.m */; };
-		EA94E44C869731ACBDBC4EE7257E7B2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		E42A95348ECAF034BF6AA05FA074B22A /* UIBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66FB6AD16CD2EB65C3A51CA2DC6FB93 /* UIBarButtonItem.swift */; };
+		ED6E9E1A9417DF52FA85D6669AFF2721 /* UITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7079B9A11E7693FD3CFF1A28940600DE /* UITextView.swift */; };
+		FD812FDD318B82CF14724C53D025E621 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D63E691AAA51D6FEE06F2B6883387BE7 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		0095D8AE4BD19CDCAB6F30F1F14036A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D0D2CB6919DEAA0F507BBA8E21627AD;
+			remoteInfo = EasyClosure;
+		};
+		44434FF270B03DA036787FB5A77389A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D0D2CB6919DEAA0F507BBA8E21627AD;
+			remoteInfo = EasyClosure;
+		};
 		63E7B7FC669490300E734DB718953002 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -27,7 +62,7 @@
 			remoteGlobalIDString = 46A10A554C2D1718A48110A5404BD0D2;
 			remoteInfo = "Pods-AutoCompleteAccessoryView_Example";
 		};
-		E86AB208DF2A47D08174D6C37CFA8C26 /* PBXContainerItemProxy */ = {
+		DAEF4DB7965678141C1F511C409C4CE4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -37,54 +72,71 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E151250427D5037E6BE63BD474CA80F /* EasyClosure-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EasyClosure-dummy.m"; sourceTree = "<group>"; };
+		10D968A9262B5FE11239F6A1A7ACE2C6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		11503EDC1C09E8B860D90D5F87C3F32F /* AutoCompleteAccessoryView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AutoCompleteAccessoryView.framework; path = AutoCompleteAccessoryView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		147B45BB169B7BB1DE7C26FD7413F8E6 /* AutoCompleteAccessoryView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AutoCompleteAccessoryView.modulemap; sourceTree = "<group>"; };
+		16E962ECFFA4EDCCCCE35BC4F9D224C2 /* EasyClosure.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EasyClosure.xcconfig; sourceTree = "<group>"; };
+		1EA2561E66486301596CC9609F561971 /* UIGestureRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIGestureRecognizer.swift; path = Sources/iOS/UIGestureRecognizer.swift; sourceTree = "<group>"; };
 		23AC719C181A4AB8E513D5E16EAF02DA /* Pods-AutoCompleteAccessoryView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AutoCompleteAccessoryView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		2564FFA15A116364D03C8B4EECEFEF1B /* AutoCompleteAccessoryView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AutoCompleteAccessoryView-umbrella.h"; sourceTree = "<group>"; };
-		2854695C91DC74927812D48D4FE00C86 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		286DD808FA5B0BB9E60812DD06FD1753 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = AutoCompleteAccessoryView/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		2901F8B96A2E8FD1BEAEB914670380E4 /* Pods-AutoCompleteAccessoryView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AutoCompleteAccessoryView_Example-umbrella.h"; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3793C9E529256EC54F0B920A20BD5DFD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		36BFA749415EC1A4C97B0CBCA2237712 /* AutoCompleteAccessoryView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AutoCompleteAccessoryView-dummy.m"; sourceTree = "<group>"; };
+		372DE9819A7856342271E3812A2C0711 /* UISwitch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UISwitch.swift; path = Sources/iOS/UISwitch.swift; sourceTree = "<group>"; };
 		3A3D928CE62648C9A0025A461088B2EB /* Pods-AutoCompleteAccessoryView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AutoCompleteAccessoryView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3B072C9050C04218FCAAECC1B52214BF /* EasyClosure.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EasyClosure.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C9E5E53E524CF14D98BE6A9AE5E7460 /* Typealias.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Typealias.swift; path = Sources/Shared/Typealias.swift; sourceTree = "<group>"; };
 		3E645E1795BAE71091FF4642BA3067B5 /* Pods-AutoCompleteAccessoryView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AutoCompleteAccessoryView_Example.modulemap"; sourceTree = "<group>"; };
 		41C799B07CADADF125C789DEA5F89879 /* Pods-AutoCompleteAccessoryView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AutoCompleteAccessoryView_Example-dummy.m"; sourceTree = "<group>"; };
+		48263DBF723750E04DC672C3C00197B7 /* AutoCompleteAccessoryView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AutoCompleteAccessoryView-Info.plist"; sourceTree = "<group>"; };
+		4AA2C1D31C3B317E36A7FB018BFA36E9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		4C9F8864063E11B2F7252B92F87F9255 /* Pods-AutoCompleteAccessoryView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AutoCompleteAccessoryView_Example-Info.plist"; sourceTree = "<group>"; };
 		57D927A50A7A6679E9D64BCD54E106EB /* Pods-AutoCompleteAccessoryView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AutoCompleteAccessoryView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		581A1CBBF4CBEB7CE2CA7EADC8AF30A5 /* AutoCompleteAccessoryView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AutoCompleteAccessoryView-Info.plist"; sourceTree = "<group>"; };
+		5AF8B99A02BE39FB4A0CB7D48EEDADC8 /* AutoCompleteAccessoryView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AutoCompleteAccessoryView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		60AA9DC8A780C5D93203F9CF5E4025C7 /* Pods-AutoCompleteAccessoryView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AutoCompleteAccessoryView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		61868E9413130F57293E41C532F62BC2 /* Container.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Container.swift; path = Sources/Shared/Container.swift; sourceTree = "<group>"; };
+		7079B9A11E7693FD3CFF1A28940600DE /* UITextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITextView.swift; path = Sources/iOS/UITextView.swift; sourceTree = "<group>"; };
+		70E03FCDD01AD1E433C5DBC4EA21DEDE /* UIButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIButton.swift; path = Sources/iOS/UIButton.swift; sourceTree = "<group>"; };
 		72E2BAFA117EABAF4BD3A173ED681176 /* Pods-AutoCompleteAccessoryView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AutoCompleteAccessoryView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		753C82A1E41F11CD8EA433A03BD7738A /* NSObject+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSObject+Extension.swift"; path = "Sources/Shared/NSObject+Extension.swift"; sourceTree = "<group>"; };
+		77376B938C453673374A7D35EFD2F4E2 /* AutoCompleteAccessoryView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AutoCompleteAccessoryView-prefix.pch"; sourceTree = "<group>"; };
+		7A63F3E205A0E9C502C43EFDF749414F /* EasyClosure.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EasyClosure.modulemap; sourceTree = "<group>"; };
+		8272F207BC6E1656385C66AE45276CBB /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = AutoCompleteAccessoryView/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		875C7E3FA11AC80FDD8B8BB329266415 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		8F59BAF01BD51986447E910444E14EE5 /* UITextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITextField.swift; path = Sources/iOS/UITextField.swift; sourceTree = "<group>"; };
 		8F7CA229BAFBFA12F5899893000DD987 /* Pods-AutoCompleteAccessoryView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AutoCompleteAccessoryView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		90F8B911BE021F2853ED4D669BFD89A5 /* AutoCompleteAccessoryView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AutoCompleteAccessoryView.xcconfig; sourceTree = "<group>"; };
 		92E4B850E6AF75872D9B354A0D08F4FF /* Pods-AutoCompleteAccessoryView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AutoCompleteAccessoryView_Tests-Info.plist"; sourceTree = "<group>"; };
+		949D26DD6FFFF8A159893C47BD6C0671 /* AutoCompleteAccessoryCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AutoCompleteAccessoryCell.swift; path = AutoCompleteAccessoryView/Classes/AutoCompleteAccessoryCell.swift; sourceTree = "<group>"; };
+		9C822E6114596765A1AE13DDA948ABD1 /* UIDatePicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIDatePicker.swift; path = Sources/iOS/UIDatePicker.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A048B1FA864A8ECE4995791DB1B0146C /* EasyClosure-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EasyClosure-prefix.pch"; sourceTree = "<group>"; };
 		A8A0897D7EECECBDEDA84EF78810F443 /* Pods-AutoCompleteAccessoryView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AutoCompleteAccessoryView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		ADCDA008FBA4F6755ED642B6246F7FF0 /* AutoCompleteAccessoryView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AutoCompleteAccessoryView.modulemap; sourceTree = "<group>"; };
 		B0BFD9FDAC4D227E1C06AF4C0B3EED1A /* Pods_AutoCompleteAccessoryView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AutoCompleteAccessoryView_Tests.framework; path = "Pods-AutoCompleteAccessoryView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B36849615DFD3E48807E98CA8BDDE4BB /* EasyClosure.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EasyClosure.framework; path = EasyClosure.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7B1EBF536262D2E52F2F8B1D67A7F4C /* Pods-AutoCompleteAccessoryView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AutoCompleteAccessoryView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BB4E58144D8385637971E0015AA0F4E4 /* UISearchBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UISearchBar.swift; path = Sources/iOS/UISearchBar.swift; sourceTree = "<group>"; };
+		BEE5F170356706CA9A58359C3C2DE3E1 /* AutoCompleteAccessoryView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AutoCompleteAccessoryView.swift; path = AutoCompleteAccessoryView/Classes/AutoCompleteAccessoryView.swift; sourceTree = "<group>"; };
+		C87F93B9938D6DB38C5EC0F5CF1D1E82 /* EasyClosure-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EasyClosure-umbrella.h"; sourceTree = "<group>"; };
 		CB4818052CB68F82B06546584CE8149E /* Pods-AutoCompleteAccessoryView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AutoCompleteAccessoryView_Tests-dummy.m"; sourceTree = "<group>"; };
 		CC4DFB8A8AB4B6144E7CF0B36FDC8C7A /* Pods-AutoCompleteAccessoryView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AutoCompleteAccessoryView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D13124903F9D88722E6E47A58C7C97E4 /* AutoCompleteAccessoryView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AutoCompleteAccessoryView.xcconfig; sourceTree = "<group>"; };
+		D067091FD3E7D0D84492C3A92EDF50E5 /* UISlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UISlider.swift; path = Sources/iOS/UISlider.swift; sourceTree = "<group>"; };
 		D21B77DDFA316E457C73DF90A1DE522E /* Pods-AutoCompleteAccessoryView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AutoCompleteAccessoryView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D63E691AAA51D6FEE06F2B6883387BE7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D66FB6AD16CD2EB65C3A51CA2DC6FB93 /* UIBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIBarButtonItem.swift; path = Sources/iOS/UIBarButtonItem.swift; sourceTree = "<group>"; };
+		DD3F4DE018F1C7EB94B83A0DFDC5D94A /* EasyClosureAware.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EasyClosureAware.swift; path = Sources/Shared/EasyClosureAware.swift; sourceTree = "<group>"; };
 		DF626C1DCF697E6A4417307CBB4176FC /* Pods-AutoCompleteAccessoryView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AutoCompleteAccessoryView_Tests.modulemap"; sourceTree = "<group>"; };
-		E3A2E5D087BA4C3670F5071A555A0CC5 /* AutoCompleteAccessoryView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AutoCompleteAccessoryView-dummy.m"; sourceTree = "<group>"; };
 		E3D18B8038FA2D484100347E71EA565C /* Pods_AutoCompleteAccessoryView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AutoCompleteAccessoryView_Example.framework; path = "Pods-AutoCompleteAccessoryView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E44B2C485A18F07829B84D448E8F46B9 /* AutoCompleteAccessoryView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AutoCompleteAccessoryView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		EC20F35443EE98C25D5CAD5F9D375AF2 /* AutoCompleteAccessoryView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AutoCompleteAccessoryView-prefix.pch"; sourceTree = "<group>"; };
+		E7C2847736D5A849028B0CA2C34275ED /* AutoCompleteAccessoryView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AutoCompleteAccessoryView-umbrella.h"; sourceTree = "<group>"; };
+		E90055E48BF6D2A0D830113D7DA194A6 /* EasyClosure-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EasyClosure-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2848CB4FE8931AF333DC306D4C15AD09 /* Frameworks */ = {
+		250152A3B7FAF521E1110F8537F25073 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B075B5CB14A89BCA6F43CF401AB409E0 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		615F60A0CAE9123DCFB585E8FA3550B8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EA94E44C869731ACBDBC4EE7257E7B2A /* Foundation.framework in Frameworks */,
+				CEE6D28565C0604BE23A1FB9E8EFDBB0 /* Foundation.framework in Frameworks */,
+				2BAD440D07646A32862C70D5458A01BD /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,50 +148,64 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D825C6E81C86AB1727A87D8579D9F827 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD812FDD318B82CF14724C53D025E621 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF51BDD801DD6B6CC6B16E135F735D29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11193A3DD9BF46E7B6BEFE340F590C9E /* EasyClosure.framework in Frameworks */,
+				D0CD2E5DE0B7AD36EBB91E3CCE3B23CA /* Foundation.framework in Frameworks */,
+				55FF750A76D5482A3E7EE0DF9C2A1A1E /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1F4898366DD6224944488D86670B445A /* Development Pods */ = {
+		27B0A5661D3C64A1BD90B35BCE261202 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				3B5CA85C838878CDF99C65880F1B5A12 /* AutoCompleteAccessoryView */,
+				D63E691AAA51D6FEE06F2B6883387BE7 /* Foundation.framework */,
+				4AA2C1D31C3B317E36A7FB018BFA36E9 /* UIKit.framework */,
 			);
-			name = "Development Pods";
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		3B5CA85C838878CDF99C65880F1B5A12 /* AutoCompleteAccessoryView */ = {
+		539688A2F76D14340642BC6D8062F2C0 /* EasyClosure */ = {
 			isa = PBXGroup;
 			children = (
-				286DD808FA5B0BB9E60812DD06FD1753 /* ReplaceMe.swift */,
-				C434788CCE8E64D469B4FDA79F29E122 /* Pod */,
-				5E4093D745105C7A5FADA1D642758940 /* Support Files */,
+				61868E9413130F57293E41C532F62BC2 /* Container.swift */,
+				DD3F4DE018F1C7EB94B83A0DFDC5D94A /* EasyClosureAware.swift */,
+				753C82A1E41F11CD8EA433A03BD7738A /* NSObject+Extension.swift */,
+				3C9E5E53E524CF14D98BE6A9AE5E7460 /* Typealias.swift */,
+				D66FB6AD16CD2EB65C3A51CA2DC6FB93 /* UIBarButtonItem.swift */,
+				70E03FCDD01AD1E433C5DBC4EA21DEDE /* UIButton.swift */,
+				9C822E6114596765A1AE13DDA948ABD1 /* UIDatePicker.swift */,
+				1EA2561E66486301596CC9609F561971 /* UIGestureRecognizer.swift */,
+				BB4E58144D8385637971E0015AA0F4E4 /* UISearchBar.swift */,
+				D067091FD3E7D0D84492C3A92EDF50E5 /* UISlider.swift */,
+				372DE9819A7856342271E3812A2C0711 /* UISwitch.swift */,
+				8F59BAF01BD51986447E910444E14EE5 /* UITextField.swift */,
+				7079B9A11E7693FD3CFF1A28940600DE /* UITextView.swift */,
+				D772E9B455377DAC011F1497EAB806B3 /* Support Files */,
 			);
-			name = AutoCompleteAccessoryView;
-			path = ../..;
+			name = EasyClosure;
+			path = EasyClosure;
 			sourceTree = "<group>";
 		};
-		5E4093D745105C7A5FADA1D642758940 /* Support Files */ = {
+		599C72AEA1F505259ED05813AEB118F3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				ADCDA008FBA4F6755ED642B6246F7FF0 /* AutoCompleteAccessoryView.modulemap */,
-				D13124903F9D88722E6E47A58C7C97E4 /* AutoCompleteAccessoryView.xcconfig */,
-				E3A2E5D087BA4C3670F5071A555A0CC5 /* AutoCompleteAccessoryView-dummy.m */,
-				581A1CBBF4CBEB7CE2CA7EADC8AF30A5 /* AutoCompleteAccessoryView-Info.plist */,
-				EC20F35443EE98C25D5CAD5F9D375AF2 /* AutoCompleteAccessoryView-prefix.pch */,
-				2564FFA15A116364D03C8B4EECEFEF1B /* AutoCompleteAccessoryView-umbrella.h */,
+				539688A2F76D14340642BC6D8062F2C0 /* EasyClosure */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/AutoCompleteAccessoryView";
-			sourceTree = "<group>";
-		};
-		91E7B1D1301A3C4ADD32619FBB69354B /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				11503EDC1C09E8B860D90D5F87C3F32F /* AutoCompleteAccessoryView.framework */,
-				E3D18B8038FA2D484100347E71EA565C /* Pods_AutoCompleteAccessoryView_Example.framework */,
-				B0BFD9FDAC4D227E1C06AF4C0B3EED1A /* Pods_AutoCompleteAccessoryView_Tests.framework */,
-			);
-			name = Products;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		945B94BA2B6E81EF54B1E9F6B316A64B /* Pods-AutoCompleteAccessoryView_Example */ = {
@@ -159,6 +225,14 @@
 			path = "Target Support Files/Pods-AutoCompleteAccessoryView_Example";
 			sourceTree = "<group>";
 		};
+		9B995CA03DD0BBDDADA672EF647CA663 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ABB4F2D653C6A4B7A97ED9B47834970C /* AutoCompleteAccessoryView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		A1E6BB0A6B527979853D7360301DE5D8 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -166,6 +240,30 @@
 				B36F2B89611512391A7005917F5DD555 /* Pods-AutoCompleteAccessoryView_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A51E43FB98C34BB0AEC5CB0392D2EDFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11503EDC1C09E8B860D90D5F87C3F32F /* AutoCompleteAccessoryView.framework */,
+				B36849615DFD3E48807E98CA8BDDE4BB /* EasyClosure.framework */,
+				E3D18B8038FA2D484100347E71EA565C /* Pods_AutoCompleteAccessoryView_Example.framework */,
+				B0BFD9FDAC4D227E1C06AF4C0B3EED1A /* Pods_AutoCompleteAccessoryView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABB4F2D653C6A4B7A97ED9B47834970C /* AutoCompleteAccessoryView */ = {
+			isa = PBXGroup;
+			children = (
+				949D26DD6FFFF8A159893C47BD6C0671 /* AutoCompleteAccessoryCell.swift */,
+				BEE5F170356706CA9A58359C3C2DE3E1 /* AutoCompleteAccessoryView.swift */,
+				8272F207BC6E1656385C66AE45276CBB /* ReplaceMe.swift */,
+				E2E00C901719FA5542AB06A1C4DF70B6 /* Pod */,
+				C89ADBD7076545C0808FB0D28042B4F3 /* Support Files */,
+			);
+			name = AutoCompleteAccessoryView;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		B36F2B89611512391A7005917F5DD555 /* Pods-AutoCompleteAccessoryView_Tests */ = {
@@ -184,51 +282,73 @@
 			path = "Target Support Files/Pods-AutoCompleteAccessoryView_Tests";
 			sourceTree = "<group>";
 		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+		C89ADBD7076545C0808FB0D28042B4F3 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+				147B45BB169B7BB1DE7C26FD7413F8E6 /* AutoCompleteAccessoryView.modulemap */,
+				90F8B911BE021F2853ED4D669BFD89A5 /* AutoCompleteAccessoryView.xcconfig */,
+				36BFA749415EC1A4C97B0CBCA2237712 /* AutoCompleteAccessoryView-dummy.m */,
+				48263DBF723750E04DC672C3C00197B7 /* AutoCompleteAccessoryView-Info.plist */,
+				77376B938C453673374A7D35EFD2F4E2 /* AutoCompleteAccessoryView-prefix.pch */,
+				E7C2847736D5A849028B0CA2C34275ED /* AutoCompleteAccessoryView-umbrella.h */,
 			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		C434788CCE8E64D469B4FDA79F29E122 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				E44B2C485A18F07829B84D448E8F46B9 /* AutoCompleteAccessoryView.podspec */,
-				3793C9E529256EC54F0B920A20BD5DFD /* LICENSE */,
-				2854695C91DC74927812D48D4FE00C86 /* README.md */,
-			);
-			name = Pod;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AutoCompleteAccessoryView";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				1F4898366DD6224944488D86670B445A /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				91E7B1D1301A3C4ADD32619FBB69354B /* Products */,
+				9B995CA03DD0BBDDADA672EF647CA663 /* Development Pods */,
+				D65098E7CBF67D67D30449A9E4E26E57 /* Frameworks */,
+				599C72AEA1F505259ED05813AEB118F3 /* Pods */,
+				A51E43FB98C34BB0AEC5CB0392D2EDFD /* Products */,
 				A1E6BB0A6B527979853D7360301DE5D8 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		D65098E7CBF67D67D30449A9E4E26E57 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				3B072C9050C04218FCAAECC1B52214BF /* EasyClosure.framework */,
+				27B0A5661D3C64A1BD90B35BCE261202 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D772E9B455377DAC011F1497EAB806B3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A63F3E205A0E9C502C43EFDF749414F /* EasyClosure.modulemap */,
+				16E962ECFFA4EDCCCCE35BC4F9D224C2 /* EasyClosure.xcconfig */,
+				0E151250427D5037E6BE63BD474CA80F /* EasyClosure-dummy.m */,
+				E90055E48BF6D2A0D830113D7DA194A6 /* EasyClosure-Info.plist */,
+				A048B1FA864A8ECE4995791DB1B0146C /* EasyClosure-prefix.pch */,
+				C87F93B9938D6DB38C5EC0F5CF1D1E82 /* EasyClosure-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/EasyClosure";
+			sourceTree = "<group>";
+		};
+		E2E00C901719FA5542AB06A1C4DF70B6 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5AF8B99A02BE39FB4A0CB7D48EEDADC8 /* AutoCompleteAccessoryView.podspec */,
+				10D968A9262B5FE11239F6A1A7ACE2C6 /* LICENSE */,
+				875C7E3FA11AC80FDD8B8BB329266415 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		34ADD64E1A6F3DC7D958077B0DE980D2 /* Headers */ = {
+		167FF865D4EF95B76ED25C0F61838B16 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CE72B2BD66D766A0D3F9BA9BE8A4BAB /* AutoCompleteAccessoryView-umbrella.h in Headers */,
+				A909D0C9A9C73255323E28C680F58E69 /* AutoCompleteAccessoryView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,11 +360,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E8E08CE9B017D045DCC23F84DAE5D4A8 /* Headers */ = {
+		946D630AF8531389752EB628C994F06A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1124F7426946CCB171FEF548AC71C523 /* Pods-AutoCompleteAccessoryView_Example-umbrella.h in Headers */,
+				628FEBE46216550ED55A5F98EB955D60 /* Pods-AutoCompleteAccessoryView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE4AA8DFDA78B153C88C0CB5A6990280 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AE40A0851B7AD98177FD5F1ABF69047 /* EasyClosure-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,16 +381,17 @@
 /* Begin PBXNativeTarget section */
 		364F08087F23C6AE86203B9229898940 /* AutoCompleteAccessoryView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18C97900123CEDFE834B0B31EB526F59 /* Build configuration list for PBXNativeTarget "AutoCompleteAccessoryView" */;
+			buildConfigurationList = AD2B6D36DB376AC68750F31053E8E50A /* Build configuration list for PBXNativeTarget "AutoCompleteAccessoryView" */;
 			buildPhases = (
-				34ADD64E1A6F3DC7D958077B0DE980D2 /* Headers */,
-				F8B0633B772910A62EA92DD730C98C5A /* Sources */,
-				615F60A0CAE9123DCFB585E8FA3550B8 /* Frameworks */,
-				EC951FDC01F759610129B7BC2F6A7979 /* Resources */,
+				167FF865D4EF95B76ED25C0F61838B16 /* Headers */,
+				6A5FEC7B89B1629AAC4998DED5E7AF21 /* Sources */,
+				FF51BDD801DD6B6CC6B16E135F735D29 /* Frameworks */,
+				0AB35EAEA0FD3CA35D7734F3DB61ACFA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				24D3BBC96A50B9F59F329F7098A8B5B3 /* PBXTargetDependency */,
 			);
 			name = AutoCompleteAccessoryView;
 			productName = AutoCompleteAccessoryView;
@@ -290,21 +419,40 @@
 		};
 		46A10A554C2D1718A48110A5404BD0D2 /* Pods-AutoCompleteAccessoryView_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EE766D0506A24DB5794ED64353B7E50C /* Build configuration list for PBXNativeTarget "Pods-AutoCompleteAccessoryView_Example" */;
+			buildConfigurationList = 40ED04F380CC27213FBD9ED08DADC0B3 /* Build configuration list for PBXNativeTarget "Pods-AutoCompleteAccessoryView_Example" */;
 			buildPhases = (
-				E8E08CE9B017D045DCC23F84DAE5D4A8 /* Headers */,
-				9B2F19F92FB640A34940ACA6F5DE65FF /* Sources */,
-				2848CB4FE8931AF333DC306D4C15AD09 /* Frameworks */,
-				F94FFDA3A264C164E3EC19D3BC86BFF4 /* Resources */,
+				946D630AF8531389752EB628C994F06A /* Headers */,
+				2139643062714DE0B2E6B97BA4D9F10B /* Sources */,
+				D825C6E81C86AB1727A87D8579D9F827 /* Frameworks */,
+				13A55C0806F6B4046EE6F9F1CDD6AA7E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7821C8BBBB95C4800DFF7A654354F90D /* PBXTargetDependency */,
+				8690A8242FF393BBE5EA7EAAD42C9C6D /* PBXTargetDependency */,
+				416D26F571746A2EB46FF16AA22C9756 /* PBXTargetDependency */,
 			);
 			name = "Pods-AutoCompleteAccessoryView_Example";
 			productName = "Pods-AutoCompleteAccessoryView_Example";
 			productReference = E3D18B8038FA2D484100347E71EA565C /* Pods_AutoCompleteAccessoryView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6D0D2CB6919DEAA0F507BBA8E21627AD /* EasyClosure */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA8DE1ABB68820C44F838BE9C931BC5E /* Build configuration list for PBXNativeTarget "EasyClosure" */;
+			buildPhases = (
+				BE4AA8DFDA78B153C88C0CB5A6990280 /* Headers */,
+				664CAB51B01CF475A4D197AE67446CB1 /* Sources */,
+				250152A3B7FAF521E1110F8537F25073 /* Frameworks */,
+				FC4A5DC6A036DD0B7B58CEA36950407A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyClosure;
+			productName = EasyClosure;
+			productReference = B36849615DFD3E48807E98CA8BDDE4BB /* EasyClosure.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -325,11 +473,12 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 91E7B1D1301A3C4ADD32619FBB69354B /* Products */;
+			productRefGroup = A51E43FB98C34BB0AEC5CB0392D2EDFD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				364F08087F23C6AE86203B9229898940 /* AutoCompleteAccessoryView */,
+				6D0D2CB6919DEAA0F507BBA8E21627AD /* EasyClosure */,
 				46A10A554C2D1718A48110A5404BD0D2 /* Pods-AutoCompleteAccessoryView_Example */,
 				451BA16855CFAECDFDCA964D44A7B7A0 /* Pods-AutoCompleteAccessoryView_Tests */,
 			);
@@ -337,6 +486,20 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0AB35EAEA0FD3CA35D7734F3DB61ACFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13A55C0806F6B4046EE6F9F1CDD6AA7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		59FD08906EDBA8E0E34ABF9E69E3AAC3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -344,14 +507,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EC951FDC01F759610129B7BC2F6A7979 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F94FFDA3A264C164E3EC19D3BC86BFF4 /* Resources */ = {
+		FC4A5DC6A036DD0B7B58CEA36950407A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -369,31 +525,66 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9B2F19F92FB640A34940ACA6F5DE65FF /* Sources */ = {
+		2139643062714DE0B2E6B97BA4D9F10B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B409BB51334F825AB2BC5F0DE6667EBF /* Pods-AutoCompleteAccessoryView_Example-dummy.m in Sources */,
+				90E8C7F47FA07759323C302782151AE9 /* Pods-AutoCompleteAccessoryView_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F8B0633B772910A62EA92DD730C98C5A /* Sources */ = {
+		664CAB51B01CF475A4D197AE67446CB1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				454992CF30E6A49F13CEA520CD60E4EB /* AutoCompleteAccessoryView-dummy.m in Sources */,
-				17B88B68686080BFAAAC9B66180379B5 /* ReplaceMe.swift in Sources */,
+				69AA2AFFCB3A283CC145E14E8C13200C /* Container.swift in Sources */,
+				9B035262D827092E3EAC0E85B0BDDB1D /* EasyClosure-dummy.m in Sources */,
+				3FCB8725F8496BA75CD64246ED0FDDEE /* EasyClosureAware.swift in Sources */,
+				402358EF302427EC5EF0F87532311656 /* NSObject+Extension.swift in Sources */,
+				BCA2A6E8D6D78F17D231DFFC033762C3 /* Typealias.swift in Sources */,
+				E42A95348ECAF034BF6AA05FA074B22A /* UIBarButtonItem.swift in Sources */,
+				51C473E13A9B2EE1C113B7AA5D07E130 /* UIButton.swift in Sources */,
+				1641A7CF127C7643B1DFB17D8746C9A2 /* UIDatePicker.swift in Sources */,
+				941B7AECDBCBE23200229A4B7F316CAC /* UIGestureRecognizer.swift in Sources */,
+				D693E48C76F49613E87DDC789694B89E /* UISearchBar.swift in Sources */,
+				71D65E2F61B5D5407BD23706C5C10162 /* UISlider.swift in Sources */,
+				800C0410E3723B0B97ACEB13CD511643 /* UISwitch.swift in Sources */,
+				D21E61B192FDC9F48C374FB1D5FF4D7E /* UITextField.swift in Sources */,
+				ED6E9E1A9417DF52FA85D6669AFF2721 /* UITextView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A5FEC7B89B1629AAC4998DED5E7AF21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				512FA07DE7378325A950A5ACEC91C02C /* AutoCompleteAccessoryCell.swift in Sources */,
+				BD87A1E59ACED679FDE0A997E6C0E47A /* AutoCompleteAccessoryView-dummy.m in Sources */,
+				623E1497D2C7043CB196704713B8290C /* AutoCompleteAccessoryView.swift in Sources */,
+				586E644C88ED79AE0B75709B184F658D /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7821C8BBBB95C4800DFF7A654354F90D /* PBXTargetDependency */ = {
+		24D3BBC96A50B9F59F329F7098A8B5B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EasyClosure;
+			target = 6D0D2CB6919DEAA0F507BBA8E21627AD /* EasyClosure */;
+			targetProxy = 0095D8AE4BD19CDCAB6F30F1F14036A9 /* PBXContainerItemProxy */;
+		};
+		416D26F571746A2EB46FF16AA22C9756 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EasyClosure;
+			target = 6D0D2CB6919DEAA0F507BBA8E21627AD /* EasyClosure */;
+			targetProxy = 44434FF270B03DA036787FB5A77389A9 /* PBXContainerItemProxy */;
+		};
+		8690A8242FF393BBE5EA7EAAD42C9C6D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AutoCompleteAccessoryView;
 			target = 364F08087F23C6AE86203B9229898940 /* AutoCompleteAccessoryView */;
-			targetProxy = E86AB208DF2A47D08174D6C37CFA8C26 /* PBXContainerItemProxy */;
+			targetProxy = DAEF4DB7965678141C1F511C409C4CE4 /* PBXContainerItemProxy */;
 		};
 		C63DCD18F5E0CA6C1305FC70A7BD155D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -404,137 +595,7 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		57C1835D81D2B3C4DAF4685770725743 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D13124903F9D88722E6E47A58C7C97E4 /* AutoCompleteAccessoryView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AutoCompleteAccessoryView/AutoCompleteAccessoryView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AutoCompleteAccessoryView/AutoCompleteAccessoryView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AutoCompleteAccessoryView/AutoCompleteAccessoryView.modulemap";
-				PRODUCT_MODULE_NAME = AutoCompleteAccessoryView;
-				PRODUCT_NAME = AutoCompleteAccessoryView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		5B5F3A060F475996E0DFD30EBD8D898E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B7B1EBF536262D2E52F2F8B1D67A7F4C /* Pods-AutoCompleteAccessoryView_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AutoCompleteAccessoryView_Example/Pods-AutoCompleteAccessoryView_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AutoCompleteAccessoryView_Example/Pods-AutoCompleteAccessoryView_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		73266EE80C1BAA06AF4A41527DE12358 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 60AA9DC8A780C5D93203F9CF5E4025C7 /* Pods-AutoCompleteAccessoryView_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AutoCompleteAccessoryView_Example/Pods-AutoCompleteAccessoryView_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AutoCompleteAccessoryView_Example/Pods-AutoCompleteAccessoryView_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		98B1527223C30F2547BEBE5AE5E93C89 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D13124903F9D88722E6E47A58C7C97E4 /* AutoCompleteAccessoryView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AutoCompleteAccessoryView/AutoCompleteAccessoryView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AutoCompleteAccessoryView/AutoCompleteAccessoryView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AutoCompleteAccessoryView/AutoCompleteAccessoryView.modulemap";
-				PRODUCT_MODULE_NAME = AutoCompleteAccessoryView;
-				PRODUCT_NAME = AutoCompleteAccessoryView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+		1422B121EAEAEA11307496903FA623C6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -582,7 +643,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -594,7 +655,283 @@
 			};
 			name = Release;
 		};
-		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+		1FC35AE31A76D4BB7B3F05BA3275AE2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7B1EBF536262D2E52F2F8B1D67A7F4C /* Pods-AutoCompleteAccessoryView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AutoCompleteAccessoryView_Example/Pods-AutoCompleteAccessoryView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AutoCompleteAccessoryView_Example/Pods-AutoCompleteAccessoryView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5D0D2F18EF5AA65659A34BCB2599E724 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90F8B911BE021F2853ED4D669BFD89A5 /* AutoCompleteAccessoryView.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AutoCompleteAccessoryView/AutoCompleteAccessoryView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AutoCompleteAccessoryView/AutoCompleteAccessoryView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AutoCompleteAccessoryView/AutoCompleteAccessoryView.modulemap";
+				PRODUCT_MODULE_NAME = AutoCompleteAccessoryView;
+				PRODUCT_NAME = AutoCompleteAccessoryView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6584DE696EFEB769639EA56124DD6BCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90F8B911BE021F2853ED4D669BFD89A5 /* AutoCompleteAccessoryView.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AutoCompleteAccessoryView/AutoCompleteAccessoryView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AutoCompleteAccessoryView/AutoCompleteAccessoryView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AutoCompleteAccessoryView/AutoCompleteAccessoryView.modulemap";
+				PRODUCT_MODULE_NAME = AutoCompleteAccessoryView;
+				PRODUCT_NAME = AutoCompleteAccessoryView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7D83CC2B5824B2D98402A161E02E1D37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8A0897D7EECECBDEDA84EF78810F443 /* Pods-AutoCompleteAccessoryView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AutoCompleteAccessoryView_Tests/Pods-AutoCompleteAccessoryView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AutoCompleteAccessoryView_Tests/Pods-AutoCompleteAccessoryView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8EDA575612E7BA9D4BA6468896132DEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60AA9DC8A780C5D93203F9CF5E4025C7 /* Pods-AutoCompleteAccessoryView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AutoCompleteAccessoryView_Example/Pods-AutoCompleteAccessoryView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AutoCompleteAccessoryView_Example/Pods-AutoCompleteAccessoryView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BF0CE74B16763DFB4D3448C3BE2E3497 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC4DFB8A8AB4B6144E7CF0B36FDC8C7A /* Pods-AutoCompleteAccessoryView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AutoCompleteAccessoryView_Tests/Pods-AutoCompleteAccessoryView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AutoCompleteAccessoryView_Tests/Pods-AutoCompleteAccessoryView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CD3006619643FB949740A8B267710E67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16E962ECFFA4EDCCCCE35BC4F9D224C2 /* EasyClosure.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EasyClosure/EasyClosure-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EasyClosure/EasyClosure-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EasyClosure/EasyClosure.modulemap";
+				PRODUCT_MODULE_NAME = EasyClosure;
+				PRODUCT_NAME = EasyClosure;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E76C7328B856619DF0D135573F71C532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16E962ECFFA4EDCCCCE35BC4F9D224C2 /* EasyClosure.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EasyClosure/EasyClosure-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EasyClosure/EasyClosure-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EasyClosure/EasyClosure.modulemap";
+				PRODUCT_MODULE_NAME = EasyClosure;
+				PRODUCT_NAME = EasyClosure;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ED7888FA6713EABBF66D26A8003AD1CA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -645,7 +982,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -658,81 +995,14 @@
 			};
 			name = Debug;
 		};
-		D33CBAD6B4A672C79D73016B83CC770D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CC4DFB8A8AB4B6144E7CF0B36FDC8C7A /* Pods-AutoCompleteAccessoryView_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AutoCompleteAccessoryView_Tests/Pods-AutoCompleteAccessoryView_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AutoCompleteAccessoryView_Tests/Pods-AutoCompleteAccessoryView_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		FBE68143DB4F932250DB901CEA4784E2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A8A0897D7EECECBDEDA84EF78810F443 /* Pods-AutoCompleteAccessoryView_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AutoCompleteAccessoryView_Tests/Pods-AutoCompleteAccessoryView_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AutoCompleteAccessoryView_Tests/Pods-AutoCompleteAccessoryView_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		18C97900123CEDFE834B0B31EB526F59 /* Build configuration list for PBXNativeTarget "AutoCompleteAccessoryView" */ = {
+		40ED04F380CC27213FBD9ED08DADC0B3 /* Build configuration list for PBXNativeTarget "Pods-AutoCompleteAccessoryView_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				57C1835D81D2B3C4DAF4685770725743 /* Debug */,
-				98B1527223C30F2547BEBE5AE5E93C89 /* Release */,
+				1FC35AE31A76D4BB7B3F05BA3275AE2A /* Debug */,
+				8EDA575612E7BA9D4BA6468896132DEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -740,8 +1010,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
-				B0087CB4594321EF41619F3181FE120E /* Release */,
+				ED7888FA6713EABBF66D26A8003AD1CA /* Debug */,
+				1422B121EAEAEA11307496903FA623C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -749,17 +1019,26 @@
 		81E2F28599BDA09AF8ED194C866D41EF /* Build configuration list for PBXNativeTarget "Pods-AutoCompleteAccessoryView_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FBE68143DB4F932250DB901CEA4784E2 /* Debug */,
-				D33CBAD6B4A672C79D73016B83CC770D /* Release */,
+				7D83CC2B5824B2D98402A161E02E1D37 /* Debug */,
+				BF0CE74B16763DFB4D3448C3BE2E3497 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EE766D0506A24DB5794ED64353B7E50C /* Build configuration list for PBXNativeTarget "Pods-AutoCompleteAccessoryView_Example" */ = {
+		AD2B6D36DB376AC68750F31053E8E50A /* Build configuration list for PBXNativeTarget "AutoCompleteAccessoryView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5B5F3A060F475996E0DFD30EBD8D898E /* Debug */,
-				73266EE80C1BAA06AF4A41527DE12358 /* Release */,
+				5D0D2F18EF5AA65659A34BCB2599E724 /* Debug */,
+				6584DE696EFEB769639EA56124DD6BCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA8DE1ABB68820C44F838BE9C931BC5E /* Build configuration list for PBXNativeTarget "EasyClosure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD3006619643FB949740A8B267710E67 /* Debug */,
+				E76C7328B856619DF0D135573F71C532 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

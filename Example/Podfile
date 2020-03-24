@@ -5,7 +5,8 @@ source = 'https://github.com/MatthewMerritt/EasyClosure.git'
 target 'AutoCompleteAccessoryView_Example' do
   pod 'AutoCompleteAccessoryView', :path => '../'
 
-  pod 'EasyClosure'
+  pod 'EasyClosure', :git => 'https://github.com/MatthewMerritt/EasyClosure.git'
+
   
   target 'AutoCompleteAccessoryView_Tests' do
     inherit! :search_paths

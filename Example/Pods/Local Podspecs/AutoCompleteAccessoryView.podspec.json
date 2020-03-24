@@ -1,8 +1,8 @@
 {
   "name": "AutoCompleteAccessoryView",
   "version": "0.1.0",
-  "summary": "A short description of AutoCompleteAccessoryView.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "AutoCompleteAccessoryView is an keyboard accessory view with autocomplete.",
+  "description": "AutoCompleteAccessoryView is an keyboard accessory view with autocomplete. You can use any [String] to search for with feed back on selection and completion.",
   "homepage": "https://github.com/MatthewMerritt/AutoCompleteAccessoryView",
   "license": {
     "type": "MIT",
@@ -16,7 +16,20 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "13.0"
   },
-  "source_files": "AutoCompleteAccessoryView/Classes/**/*"
+  "source_files": "AutoCompleteAccessoryView/Classes/**/*",
+  "ios": {
+    "frameworks": [
+      "UIKit",
+      "Foundation"
+    ]
+  },
+  "swift_versions": "5.0",
+  "dependencies": {
+    "EasyClosure": [
+
+    ]
+  },
+  "swift_version": "5.0"
 }
