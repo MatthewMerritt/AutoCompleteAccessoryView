@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AutoCompleteAccessoryView_Example' do
+  pod 'AutoCompleteAccessoryView', :path => '../'
+
+  target 'AutoCompleteAccessoryView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
