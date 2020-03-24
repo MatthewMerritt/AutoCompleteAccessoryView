@@ -1,13 +1,10 @@
 use_frameworks!
 
-source = 'https://github.com/MatthewMerritt/EasyClosure.git'
-
 target 'AutoCompleteAccessoryView_Example' do
   pod 'AutoCompleteAccessoryView', :path => '../'
 
-  pod 'EasyClosure', :git => 'https://github.com/MatthewMerritt/EasyClosure.git'
+  pod 'EasyClosure'
 
-  
   target 'AutoCompleteAccessoryView_Tests' do
     inherit! :search_paths
 

@@ -12,6 +12,7 @@
 		11193A3DD9BF46E7B6BEFE340F590C9E /* EasyClosure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B072C9050C04218FCAAECC1B52214BF /* EasyClosure.framework */; };
 		1641A7CF127C7643B1DFB17D8746C9A2 /* UIDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C822E6114596765A1AE13DDA948ABD1 /* UIDatePicker.swift */; };
 		2BAD440D07646A32862C70D5458A01BD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AA2C1D31C3B317E36A7FB018BFA36E9 /* UIKit.framework */; };
+		34E63101242A7908008A7448 /* AutoCompleteAccessoryView+EasyClosure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E63100242A7908008A7448 /* AutoCompleteAccessoryView+EasyClosure.swift */; };
 		3E7D6C6670870708B1DDD76572663919 /* Pods-AutoCompleteAccessoryView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D21B77DDFA316E457C73DF90A1DE522E /* Pods-AutoCompleteAccessoryView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3FCB8725F8496BA75CD64246ED0FDDEE /* EasyClosureAware.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3F4DE018F1C7EB94B83A0DFDC5D94A /* EasyClosureAware.swift */; };
 		402358EF302427EC5EF0F87532311656 /* NSObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753C82A1E41F11CD8EA433A03BD7738A /* NSObject+Extension.swift */; };
@@ -79,6 +80,7 @@
 		1EA2561E66486301596CC9609F561971 /* UIGestureRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIGestureRecognizer.swift; path = Sources/iOS/UIGestureRecognizer.swift; sourceTree = "<group>"; };
 		23AC719C181A4AB8E513D5E16EAF02DA /* Pods-AutoCompleteAccessoryView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AutoCompleteAccessoryView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		2901F8B96A2E8FD1BEAEB914670380E4 /* Pods-AutoCompleteAccessoryView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AutoCompleteAccessoryView_Example-umbrella.h"; sourceTree = "<group>"; };
+		34E63100242A7908008A7448 /* AutoCompleteAccessoryView+EasyClosure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "AutoCompleteAccessoryView+EasyClosure.swift"; path = "AutoCompleteAccessoryView/Classes/AutoCompleteAccessoryView+EasyClosure.swift"; sourceTree = "<group>"; };
 		36BFA749415EC1A4C97B0CBCA2237712 /* AutoCompleteAccessoryView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AutoCompleteAccessoryView-dummy.m"; sourceTree = "<group>"; };
 		372DE9819A7856342271E3812A2C0711 /* UISwitch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UISwitch.swift; path = Sources/iOS/UISwitch.swift; sourceTree = "<group>"; };
 		3A3D928CE62648C9A0025A461088B2EB /* Pods-AutoCompleteAccessoryView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AutoCompleteAccessoryView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -255,6 +257,7 @@
 			children = (
 				949D26DD6FFFF8A159893C47BD6C0671 /* AutoCompleteAccessoryCell.swift */,
 				BEE5F170356706CA9A58359C3C2DE3E1 /* AutoCompleteAccessoryView.swift */,
+				34E63100242A7908008A7448 /* AutoCompleteAccessoryView+EasyClosure.swift */,
 				E2E00C901719FA5542AB06A1C4DF70B6 /* Pod */,
 				C89ADBD7076545C0808FB0D28042B4F3 /* Support Files */,
 			);
@@ -555,6 +558,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				512FA07DE7378325A950A5ACEC91C02C /* AutoCompleteAccessoryCell.swift in Sources */,
+				34E63101242A7908008A7448 /* AutoCompleteAccessoryView+EasyClosure.swift in Sources */,
 				BD87A1E59ACED679FDE0A997E6C0E47A /* AutoCompleteAccessoryView-dummy.m in Sources */,
 				623E1497D2C7043CB196704713B8290C /* AutoCompleteAccessoryView.swift in Sources */,
 			);
