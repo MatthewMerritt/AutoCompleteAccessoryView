@@ -40,11 +40,7 @@ Pod::Spec.new do |s|
 
   s.ios.frameworks = 'UIKit', 'Foundation'
 
-<<<<<<< HEAD
   s.swift_versions = ['5.0', '5.1']
-=======
-  # s.swift_version = '5.0'
->>>>>>> 7b80f1bf096534eb73636ebb0d8a61bf11c04c63
 
   s.dependency 'EasyClosure'
 end
