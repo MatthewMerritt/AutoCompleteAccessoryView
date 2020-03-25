@@ -19,6 +19,7 @@ Pod::Spec.new do |s|
 
   s.description      = <<-DESC
 
+  
   AutoCompleteAccessoryView is an keyboard accessory view with autocomplete. You can use any [String] to search for with feed back on selection and completion.
                        DESC
 
