@@ -31,10 +31,8 @@ class ViewController: UIViewController {
             textField.autocapitalizationType = .words
             textField.clearButtonMode = .whileEditing
 
-            let autoCompleteView = AutoCompleteAccessoryView()
+            let autoCompleteView = AutoCompleteAccessoryView(searchStrings: ["Apple", "Apple Sauce", "Pineapple", "Orange", "MoFu"])
 
-            autoCompleteView.setup()
-            autoCompleteView.searchStrings = ["Apple", "Apple Sauce", "Pineapple", "Orange", "MoFu"]
             autoCompleteView.textField = textField
 
             textField.inputAccessoryView = autoCompleteView
@@ -53,7 +51,6 @@ class ViewController: UIViewController {
 
             let autoCompleteView = AutoCompleteAccessoryView()
 
-            autoCompleteView.setup()
             autoCompleteView.searchStrings = ["iPhone", "iPad", "iPod", "AirPod", "iMac", "HomePod"]
             autoCompleteView.textField = textField
 

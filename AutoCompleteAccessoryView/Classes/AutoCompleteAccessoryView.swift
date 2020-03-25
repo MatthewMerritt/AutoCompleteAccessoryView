@@ -33,13 +33,23 @@ public class AutoCompleteAccessoryView: UICollectionView, UICollectionViewDataSo
 
     public convenience init(collectionViewLayout layout: UICollectionViewLayout) {
         self.init(frame: CGRect.zero, collectionViewLayout: layout)
+        setup()
     }
 
     public convenience init() {
         self.init(frame: CGRect.zero, collectionViewLayout: UICollectionViewFlowLayout())
+        setup()
     }
 
-    public func setup() {
+    public convenience init(searchStrings: [String]) {
+        self.init(frame: CGRect.zero, collectionViewLayout: UICollectionViewFlowLayout())
+        setup()
+
+        self.searchStrings = searchStrings
+    }
+
+
+    private func setup() {
 
         let blurEffect = UIBlurEffect(style: .prominent)
 
