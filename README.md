@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/github/license/MatthewMerritt/AutoCompleteAccessoryView?style=flat)](https://cocoapods.org/pods/AutoCompleteAccessoryView)
 [![Platform](https://img.shields.io/cocoapods/p/AutoCompleteAccessoryView.svg?style=flat)](https://cocoapods.org/pods/AutoCompleteAccessoryView)
 
+[!][Issues](https://img.shields.io/github/issues/MatthewMerritt/AutoCompleteAccessoryView)
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
