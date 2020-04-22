@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AutoCompleteAccessoryView'
-  s.version          = '0.1.0'
-  s.summary          = 'AutoCompleteAccessoryView is an keyboard accessory view with autocomplete.'
+  s.version          = '0.1.1'
+  s.summary          = 'AutoCompleteAccessoryView is a keyboard accessory view with autocomplete. PlaceHolderAccessoryView is a keyboard accessory view with Place Holder Text.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -19,8 +19,9 @@ Pod::Spec.new do |s|
 
   s.description      = <<-DESC
 
-  
   AutoCompleteAccessoryView is an keyboard accessory view with autocomplete. You can use any [String] to search for with feed back on selection and completion.
+
+  PlaceHolderAccessoryView is an keyboard accessory view with Place Holder Text.
                        DESC
 
   s.homepage         = 'https://github.com/MatthewMerritt/AutoCompleteAccessoryView'
