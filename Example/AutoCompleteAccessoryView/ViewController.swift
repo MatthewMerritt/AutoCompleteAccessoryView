@@ -60,7 +60,16 @@ class ViewController: UIViewController {
                 autoCompleteView.typed = string
             }
 
+        }
 
+        ac.addTextField { textField in
+            textField.placeholder = "Enter Description"
+            textField.autocapitalizationType = .words
+            textField.clearButtonMode = .whileEditing
+
+            textField.inputAccessoryView = PlaceHolderAccessoryView(placeHolder: "Enter Text") { status in
+                print("Status: \(status)")
+            }
 
         }
 

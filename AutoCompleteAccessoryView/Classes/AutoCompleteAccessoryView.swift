@@ -9,7 +9,9 @@
 import UIKit
 import EasyClosure
 
-public class AutoCompleteAccessoryView: UICollectionView, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
+public class AutoCompleteAccessoryView: UIView, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
+
+    var collectionView: UICollectionView!
 
     private let cellId = "CellId1"
 
@@ -23,33 +25,89 @@ public class AutoCompleteAccessoryView: UICollectionView, UICollectionViewDataSo
 
     public var typed: String = "" {
         didSet {
-            performBatchUpdates({
-                reloadSections(IndexSet(arrayLiteral: 0))
+            collectionView.performBatchUpdates({
+                collectionView.reloadSections(IndexSet(arrayLiteral: 0))
             }, completion: nil)
         }
     }
 
+    var completion: ((_ status: Bool) -> Void)?
+
+    var leftButtonText: String = "X" {
+        didSet {
+            self.leftButton.setTitle(self.leftButtonText, for: .normal)
+        }
+    }
+
+    let leftButton: UIButton = {
+        let button = UIButton()
+
+        button.translatesAutoresizingMaskIntoConstraints = false
+        button.setTitle("X", for: .normal)
+        button.setTitleColor(.systemBlue, for: .normal)
+
+        button.setTitleColor(.systemRed, for: .highlighted)
+
+        button.addTarget(self, action: #selector(cancelButtonAction), for: .touchUpInside)
+
+        return button
+    }()
+
+
+    let verticalRuleLeft: UIView = {
+        let view = UIView()
+
+        view.translatesAutoresizingMaskIntoConstraints = false
+
+        view.backgroundColor = UIColor(red: 195.0/255.0, green: 196.0/255.0, blue: 201.0/255.0, alpha: 0.75)
+
+        return view
+    }()
+
+
     public var textField: UITextField?
 
+    public override init(frame: CGRect) {
+        super.init(frame: frame)
+    }
+
     public convenience init(collectionViewLayout layout: UICollectionViewLayout) {
-        self.init(frame: CGRect.zero, collectionViewLayout: layout)
+        self.init(frame: .zero)
+
+        collectionView = UICollectionView(frame: .zero, collectionViewLayout: layout)
+
+        collectionView.frame = CGRect.zero
+        collectionView.collectionViewLayout = layout
+
         setup()
     }
 
     public convenience init() {
-        self.init(frame: CGRect.zero, collectionViewLayout: UICollectionViewFlowLayout())
+        self.init(frame: .zero)
+
+        collectionView = UICollectionView(frame: .zero, collectionViewLayout: UICollectionViewFlowLayout())
+
         setup()
     }
 
     public convenience init(searchStrings: [String]) {
-        self.init(frame: CGRect.zero, collectionViewLayout: UICollectionViewFlowLayout())
+        self.init(frame: .zero)
+
+        collectionView = UICollectionView(frame: .zero, collectionViewLayout: UICollectionViewFlowLayout())
+
         setup()
 
         self.searchStrings = searchStrings
     }
-
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
 
     private func setup() {
+
+        frame.size.height = 44
 
         let blurEffect = UIBlurEffect(style: .prominent)
 
@@ -58,17 +116,39 @@ public class AutoCompleteAccessoryView: UICollectionView, UICollectionViewDataSo
         blurredEffectView.frame = bounds
 
         backgroundColor = .clear
-        backgroundView = blurredEffectView
+        collectionView.backgroundColor = .clear
 
         autoresizingMask = [.flexibleWidth]
 
-        register(AutoCompleteAccessoryCell.self, forCellWithReuseIdentifier: cellId)
-        (collectionViewLayout as! UICollectionViewFlowLayout).scrollDirection = .horizontal
+        addSubview(blurredEffectView)
 
-        delegate = self
-        dataSource = self
+        collectionView.translatesAutoresizingMaskIntoConstraints = false
 
-        frame.size.height = 44
+        blurredEffectView.contentView.addSubview(leftButton)
+        blurredEffectView.contentView.addSubview(verticalRuleLeft)
+        blurredEffectView.contentView.addSubview(collectionView)
+
+        leftButton.leftAnchor.constraint(equalTo: blurredEffectView.contentView.leftAnchor, constant: 5).isActive = true
+        leftButton.widthAnchor.constraint(equalTo: blurredEffectView.contentView.heightAnchor, constant: -25).isActive = true
+        leftButton.heightAnchor.constraint(equalTo: blurredEffectView.contentView.heightAnchor, constant: -10).isActive = true
+        leftButton.centerYAnchor.constraint(equalTo: blurredEffectView.contentView.centerYAnchor).isActive = true
+
+        verticalRuleLeft.leftAnchor.constraint(equalTo: leftButton.rightAnchor, constant: 8).isActive = true
+        verticalRuleLeft.widthAnchor.constraint(equalToConstant: 1).isActive = true
+        verticalRuleLeft.heightAnchor.constraint(equalTo: blurredEffectView.contentView.heightAnchor, constant: -20).isActive = true
+        verticalRuleLeft.centerYAnchor.constraint(equalTo: blurredEffectView.contentView.centerYAnchor).isActive = true
+
+        collectionView.leftAnchor.constraint(equalTo: verticalRuleLeft.rightAnchor, constant: 10).isActive = true
+        collectionView.rightAnchor.constraint(equalTo: rightAnchor, constant: 10).isActive = true
+        collectionView.heightAnchor.constraint(equalTo: blurredEffectView.contentView.heightAnchor, constant: 0).isActive = true
+        collectionView.centerYAnchor.constraint(equalTo: blurredEffectView.contentView.centerYAnchor).isActive = true
+
+        collectionView.register(AutoCompleteAccessoryCell.self, forCellWithReuseIdentifier: cellId)
+        (collectionView.collectionViewLayout as! UICollectionViewFlowLayout).scrollDirection = .horizontal
+
+        collectionView.delegate = self
+        collectionView.dataSource = self
+
     }
 
     public func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -113,6 +193,10 @@ public class AutoCompleteAccessoryView: UICollectionView, UICollectionViewDataSo
             textField?.text = text
             typed = text
         }
+    }
+
+    @objc func cancelButtonAction(_ sender: UIButton) {
+        completion?(false)
     }
 
 }

@@ -40,7 +40,7 @@ public class AutoCompleteAccessoryCell: UICollectionViewCell {
 
         addSubview(label)
 
-        label.textColor = .blue
+        label.textColor = .systemBlue
 
         label.centerYAnchor.constraint(equalTo: centerYAnchor).isActive = true
         label.centerXAnchor.constraint(equalTo: centerXAnchor).isActive = true
@@ -63,12 +63,12 @@ public class AutoCompleteAccessoryCell: UICollectionViewCell {
             if self.isHighlighted {
                 // Your customized animation or add a overlay view
                 label.textColor = .darkText
-                autoCompletView?.isScrollEnabled = false
+                autoCompletView?.collectionView.isScrollEnabled = false
 
             } else {
                 // Your customized animation or remove overlay view
-                label.textColor = .blue
-                autoCompletView?.isScrollEnabled = true
+                label.textColor = .systemBlue
+                autoCompletView?.collectionView.isScrollEnabled = true
             }
         }
     }
