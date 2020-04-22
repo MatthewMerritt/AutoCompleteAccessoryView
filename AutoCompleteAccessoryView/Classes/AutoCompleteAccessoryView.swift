@@ -44,9 +44,9 @@ public class AutoCompleteAccessoryView: UIView, UICollectionViewDataSource, UICo
 
         button.translatesAutoresizingMaskIntoConstraints = false
         button.setTitle("X", for: .normal)
-        button.setTitleColor(.systemBlue, for: .normal)
+        button.setTitleColor(.blue, for: .normal)
 
-        button.setTitleColor(.systemRed, for: .highlighted)
+        button.setTitleColor(.red, for: .highlighted)
 
         button.addTarget(self, action: #selector(cancelButtonAction), for: .touchUpInside)
 
