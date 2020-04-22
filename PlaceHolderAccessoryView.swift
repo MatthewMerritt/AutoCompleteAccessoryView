@@ -38,7 +38,7 @@ public class PlaceHolderAccessoryView: UIView {
 
         button.translatesAutoresizingMaskIntoConstraints = false
         button.setTitle("Ok", for: .normal)
-        button.setTitleColor(.systemBlue, for: .normal)
+        button.setTitleColor(.blue, for: .normal)
 
         button.setTitleColor(.lightGray, for: .highlighted)
 
@@ -52,9 +52,9 @@ public class PlaceHolderAccessoryView: UIView {
 
         button.translatesAutoresizingMaskIntoConstraints = false
         button.setTitle("X", for: .normal)
-        button.setTitleColor(.systemBlue, for: .normal)
+        button.setTitleColor(.blue, for: .normal)
 
-        button.setTitleColor(.systemRed, for: .highlighted)
+        button.setTitleColor(.red, for: .highlighted)
 
         button.addTarget(self, action: #selector(cancelButtonAction), for: .touchUpInside)
 
