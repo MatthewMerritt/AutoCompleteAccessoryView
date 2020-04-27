@@ -16,8 +16,7 @@ jobs:
 
         - stage: "Tests"
 
-        - script: xcodebuild clean test -scheme AutoCompleteAccessoryView -workspace Example/AutoCompleteAccessoryView.
-xcworkspace -destination 'platform=iOS Simulator,OS=13.0,name=iPhone 11'
+        - script: xcodebuild clean test -scheme AutoCompleteAccessoryView -workspace Example/AutoCompleteAccessoryView.xcworkspace -destination 'platform=iOS Simulator,OS=13.0,name=iPhone 11'
           osx_image: xcode11
           name: "iPhone X (iOS 13.0)"
 
@@ -28,4 +27,3 @@ xcworkspace -destination 'platform=iOS Simulator,OS=13.0,name=iPhone 11'
           script:
             - pod spec lint --allow-warnings
             - pod lib lint --allow-warnings
-
